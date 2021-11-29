@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DncShmWrapper", "DncShmWrapper\DncShmWrapper.csproj", "{E5FA8341-1C88-4677-9890-525D1EA97AC8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "cs_shm_wrapper_test", "cs_shm_wrapper_test\cs_shm_wrapper_test.csproj", "{B043D41D-8049-48EE-8115-CEFB18E05446}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CPP_SHM_Marshalling", "CPP_SHM_Marshalling", "{A99FB04F-2D98-4979-BD13-63F3ECCD8446}"
+	ProjectSection(SolutionItems) = preProject
+		CPP_SHM_Marshalling\CMakeLists.txt = CPP_SHM_Marshalling\CMakeLists.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "include", "include", "{6E70212E-4C77-4B15-8A0A-0E0BB7FE4FA5}"
+	ProjectSection(SolutionItems) = preProject
+		CPP_SHM_Marshalling\include\dnc_wrapper.h = CPP_SHM_Marshalling\include\dnc_wrapper.h
+		CPP_SHM_Marshalling\include\global.h = CPP_SHM_Marshalling\include\global.h
+		CPP_SHM_Marshalling\include\Person.h = CPP_SHM_Marshalling\include\Person.h
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{5279CAD6-F007-429D-B0E2-8C51E88181D9}"
+	ProjectSection(SolutionItems) = preProject
+		CPP_SHM_Marshalling\src\CMakeLists.txt = CPP_SHM_Marshalling\src\CMakeLists.txt
+		CPP_SHM_Marshalling\src\dnc_wrapper.cc = CPP_SHM_Marshalling\src\dnc_wrapper.cc
+		CPP_SHM_Marshalling\src\dnc_wrapper.o = CPP_SHM_Marshalling\src\dnc_wrapper.o
+		CPP_SHM_Marshalling\src\libdnc_wrapper.so = CPP_SHM_Marshalling\src\libdnc_wrapper.so
+		CPP_SHM_Marshalling\src\readme.txt = CPP_SHM_Marshalling\src\readme.txt
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E5FA8341-1C88-4677-9890-525D1EA97AC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5FA8341-1C88-4677-9890-525D1EA97AC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5FA8341-1C88-4677-9890-525D1EA97AC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5FA8341-1C88-4677-9890-525D1EA97AC8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B043D41D-8049-48EE-8115-CEFB18E05446}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B043D41D-8049-48EE-8115-CEFB18E05446}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B043D41D-8049-48EE-8115-CEFB18E05446}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B043D41D-8049-48EE-8115-CEFB18E05446}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6E70212E-4C77-4B15-8A0A-0E0BB7FE4FA5} = {A99FB04F-2D98-4979-BD13-63F3ECCD8446}
+		{5279CAD6-F007-429D-B0E2-8C51E88181D9} = {A99FB04F-2D98-4979-BD13-63F3ECCD8446}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {91376076-5297-472D-A778-63901BB20AA8}
+	EndGlobalSection
+EndGlobal

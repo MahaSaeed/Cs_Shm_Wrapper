@@ -1,0 +1,3 @@
+/VM_Shared/VM_Shared/repos/Utilities/MarshallingUnmanagedData/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/VM_Shared/VM_Shared/repos/Utilities/MarshallingUnmanagedData/cmake-build-debug/CMakeFiles/edit_cache.dir
+/VM_Shared/VM_Shared/repos/Utilities/MarshallingUnmanagedData/cmake-build-debug/CMakeFiles/MarshallingUnmanagedData.dir
